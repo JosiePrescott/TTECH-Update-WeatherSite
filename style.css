@@ -1,6 +1,3 @@
-img {
-  width: 250px;
-}
 p {
   font-family: cursive;
   font-style: oblique;
@@ -68,39 +65,32 @@ hr {
   background: #cecece;
   max-width: 100%;
 }
+.article{
+  text-align: center;
+  padding: 1em;
+  background-color: rgba(200, 200, 255, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05);
+}
 .archive {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-gap: 1em;
   grid-auto-flow: dense;
 }
-.article {
-  text-align: center;
-  padding: 1em;
-  background: rgba(200, 200, 255, 0.3);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05);
-}
-.article img {
-  max-width: 100%;
+.archive img{
+  max-width: 100%
 }
 .five-day {
   text-align: center;
   padding: 1em;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.05);
-  grid-column: 1 / 5;
   background: rgba(200, 200, 255, 0.3);
 }
-.day {
-  color: #111;
-  max-width: 100px;
-  height: 125px;
-  background-color: #048caa;
-}
-.article:nth-child(1) {
+.archive:nth-child(1) {
   grid-column: 1 / -1;
   background: rgba(200, 200, 255, 0.3);
 }
-.article:nth-child(8) {
+.archive:nth-child(8) {
   grid-column: -3 / -1;
   background: rgba(255, 200, 255, 0.3);
 }
@@ -156,4 +146,7 @@ hr {
 }
 footer {
   text-align: center;
+}
+.headimg{
+  width: 150px;
 }
