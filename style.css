@@ -1,25 +1,7 @@
-p {
-  font-family: cursive;
-  font-style: oblique;
-}
-h1 {
-  color: rgb(24, 43, 61);
-}
-body {
-  background-color: rgb(216, 214, 213);
-}
-p {
-  font-family: cursive;
-  font-style: oblique;
-}
-h1 {
-  color: rgb(24, 43, 61);
-}
 a {
   color: #111;
 }
-
-ul {
+.nav-bar ul{
   max-width: 100%;
   list-style-type: none;
   margin: 0;
@@ -41,7 +23,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #948787;
+  background-color: #111;
 }
 
 .active {
@@ -150,3 +132,18 @@ footer {
 .headimg{
   width: 150px;
 }
+.flex img{
+    width: 75px;
+}
+.article .summary{
+  text-align: left;
+  padding-left: 10px;
+}
+.article-img{
+  width: 350px;
+
+}
+.article h1{
+  text-align: left;
+}
+
