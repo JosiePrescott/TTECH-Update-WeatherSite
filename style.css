@@ -106,6 +106,9 @@ hr {
 #forecastTitle {
   text-align: center;
 }
+.forecast{
+  text-align: center;
+}
 .flex {
   display: flex;
   justify-content: center;
@@ -146,4 +149,5 @@ footer {
 .article h1{
   text-align: left;
 }
+
 
